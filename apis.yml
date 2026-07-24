@@ -1,8 +1,30 @@
 aid: cherwell-software
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cherwell-software.png
 name: Cherwell Software
-description: Cherwell Software is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Cherwell Software was an IT service management (ITSM) vendor founded in 2004 and
+  headquartered in Colorado Springs, Colorado. Its flagship Cherwell Service Management
+  (CSM) platform, first released in 2007, let IT departments automate routine tasks,
+  manage incidents, problems, changes, and assets, and build codeless workflows,
+  later expanding into enterprise service management for HR, Facilities, Information
+  Security, and Project Management. Cherwell was acquired by Ivanti on March 25, 2021,
+  and its products were folded into the Ivanti Neurons portfolio: Cherwell ITSM became
+  Ivanti Neurons for ITSM, Cherwell ITAM became Ivanti Neurons for ITAM, and Cherwell
+  CORE became Ivanti's Enterprise Service Management offering. The cherwell.com domain
+  now 301-redirects to Ivanti, and no standalone Cherwell-branded developer portal,
+  API, or public specification remains. This profile is retained as an acquired-company
+  record in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/cherwell-software/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +32,22 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: ivanti
+x-acquired-date: '2021-03-25'
+x-successor: ivanti-neurons
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- IT Service Management
+- ITSM
+- Enterprise Service Management
+- IT Asset Management
+- ITAM
+- Acquired
+- Ivanti
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +55,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cherwell-software-domain-security.yml
 - type: Website
   url: http://www.cherwell.com/
+- type: About
+  url: https://www.ivanti.com/company/history/cherwell
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
