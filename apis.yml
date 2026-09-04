@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'http://www.cherwell.com/', status: 301, note: 'declared website redirects to https://www.ivanti.com/company/history/cherwell — a different registrable domain (cherwell.com -> ivanti.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cherwell-software.png
 name: Cherwell Software
 description: >-
